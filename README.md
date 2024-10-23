@@ -1,2 +1,2 @@
 # harbour-hacks
-Nova Scotia's first high school hackathon website!
+Nova Scotia's first junior high and high school hackathon website!
