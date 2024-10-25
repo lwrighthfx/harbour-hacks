@@ -55,6 +55,10 @@ can be accessed through the alumni lounge at 5260 Dacosta Row!
    <p>HarbourHacks will be at the Dalhousie University Sexton Campus and
        can be accessed through the alumni lounge at 5260 Dacosta Row
    </p>
+   <!-- <button class="accordion">How many people per team?</button>
+   <div class="panel">
+    <p>Teams can be anywhere from 2-4 people.</p>
+   </div> -->
    <h3>How many people per team?</h3>
    <p>Teams can be anywhere from 2-4 people.</p>
    <h3>What should I do if I don't have a team?</h3>
@@ -89,5 +93,21 @@ can be accessed through the alumni lounge at 5260 Dacosta Row!
     <h1 id="contact">Contact Us</h1>
     <p>Need more information?<br>You can email lwrighthfx@gmail.com if you 
     have any questions or message @harbourhacks on Instagram.</p>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 </html>
