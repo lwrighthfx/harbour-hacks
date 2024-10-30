@@ -2,7 +2,16 @@ a {
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     color: pink;
+    border-style: solid;
+    border-color: #3333cc;
+    padding: 3px;
+    background-color: #6600cc;
+    text-decoration: none;
  }
+.navbar_container {
+   /* background-color: #0066cc; */
+   height: 45px;
+}
  h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 35px;
@@ -38,23 +47,44 @@ a {
     font-family: 'Courier New', Courier, monospace;
     color: white;
  }
- /* .accordion {
-   background-color: #eee;
+
+.Answers {
+   margin-bottom: 2px;
+}
+ .accordion {
+   background-color: #008040;
    color: #444;
    cursor: pointer;
    padding: 18px;
-   width: 100%;
-   text-align: left;
+   width: 75%;
+   text-align: center;
    border: none;
    outline: none;
    transition: 0.4s;
+   color: #ff8fc1;
+   font-size: 22px;
+   font-family:'Courier New', Courier, monospace;
+   margin: auto;
+   font-weight: bold;
  }
+
  .active, .accordion:hover {
-   background-color: #ccc;
+   background-color:rgb(204, 204, 204)6ff;
+   margin-left: auto;
+   margin-right: auto;
  }
  .panel {
    padding: 0 18px;
-   background-color: white;
+   background-color: #006600;
    display: none;
    overflow: hidden;
- } */
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .container{
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+   width: 100%;
+   }
